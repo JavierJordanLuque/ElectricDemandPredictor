@@ -12,3 +12,4 @@ Within the repository's structure, you'll find several directories that organize
 - `model/`: Contains the trained Random Forest model saved as a `.pkl` file.
 - `electricDemandPredictor/`: This folder contains a desktop application that allows users to interact with the trained model.
   - The application is developed in Python and implemented in `electricDemandPredictor.py`.
+  - It has been packaged into an executable `.exe` using PyInstaller for easy deployment and usage.

@@ -10,3 +10,5 @@ Within the repository's structure, you'll find several directories that organize
 - `electricDemandPredictorAnalysis.ipynb`: A Jupyter Notebook where an Exploratory Data Analysis (EDA) has been performed on the dataset. A Random Forest machine learning model has been trained based on this data.
 - `requirements.txt`: Lists all the necessary dependencies to run the project locally. You can install them using: ``pip install -r requirements.txt``
 - `model/`: Contains the trained Random Forest model saved as a `.pkl` file.
+- `electricDemandPredictor/`: This folder contains a desktop application that allows users to interact with the trained model.
+  - The application is developed in Python and implemented in `electricDemandPredictor.py`.
